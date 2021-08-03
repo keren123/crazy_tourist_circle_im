@@ -1,0 +1,743 @@
+2019-09-03 20:47:29 -Starting WebSpringApplication on DESKTOP-FJ882IS with PID 15284 (C:\dev\refer\crazyim\crazy_tourist_circle__im\WebGate\target\classes started by wuqinglin in C:\dev\refer\crazyim\crazy_tourist_circle__im)
+2019-09-03 20:47:29 -No active profile set, falling back to default profiles: default
+2019-09-03 20:47:29 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 20:47:29 CST 2019]; root of context hierarchy
+2019-09-03 20:47:30 -HV000001: Hibernate Validator 5.3.5.Final
+2019-09-03 20:47:31 -No MyBatis mapper was found in '[com.crazymakercircle.start]' package. Please check your configuration.
+2019-09-03 20:47:31 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-03 20:47:31 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9c8576cf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 20:47:33 -Tomcat initialized with port(s): 8080 (http)
+2019-09-03 20:47:33 -Starting service [Tomcat]
+2019-09-03 20:47:33 -Starting Servlet Engine: Apache Tomcat/8.5.16
+2019-09-03 20:47:33 -Initializing Spring embedded WebApplicationContext
+2019-09-03 20:47:33 -Root WebApplicationContext: initialization completed in 3707 ms
+2019-09-03 20:47:33 -Mapping servlet: 'dispatcherServlet' to [/]
+2019-09-03 20:47:33 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-09-03 20:47:33 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-09-03 20:47:33 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-09-03 20:47:33 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-09-03 20:47:34 -Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-09-03 20:47:34 -Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-09-03 20:47:34 -Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-09-03 20:47:34 -Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-09-03 20:47:34 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-09-03 20:47:34 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-09-03 20:47:34 -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 20:47:29 CST 2019]; root of context hierarchy
+2019-09-03 20:47:34 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 20:47:34 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 20:47:35 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 20:47:36 -Registering beans for JMX exposure on startup
+2019-09-03 20:47:36 -Context refreshed
+2019-09-03 20:47:36 -Found 1 custom documentation plugin(s)
+2019-09-03 20:47:36 -Scanning for api listing references
+2019-09-03 20:47:36 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-03 20:47:36 -Starting ProtocolHandler ["http-nio-8080"]
+2019-09-03 20:47:36 -Using a shared selector for servlet write/read
+2019-09-03 20:47:36 -Tomcat started on port(s): 8080 (http)
+2019-09-03 20:47:36 -Started WebSpringApplication in 6.892 seconds (JVM running for 7.994)
+2019-09-03 20:49:19 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-03 20:49:19 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-09-03 20:49:19 -FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2019-09-03 20:57:03 -Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 20:47:29 CST 2019]; root of context hierarchy
+2019-09-03 20:57:03 -Unregistering JMX-exposed beans on shutdown
+2019-09-03 20:57:10 -Starting WebSpringApplication on DESKTOP-FJ882IS with PID 22428 (C:\dev\refer\crazyim\crazy_tourist_circle__im\WebGate\target\classes started by wuqinglin in C:\dev\refer\crazyim\crazy_tourist_circle__im)
+2019-09-03 20:57:10 -No active profile set, falling back to default profiles: default
+2019-09-03 20:57:10 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 20:57:10 CST 2019]; root of context hierarchy
+2019-09-03 20:57:10 -HV000001: Hibernate Validator 5.3.5.Final
+2019-09-03 20:57:11 -No MyBatis mapper was found in '[com.crazymakercircle.start]' package. Please check your configuration.
+2019-09-03 20:57:11 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-03 20:57:11 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8bb2d841] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 20:57:13 -Tomcat initialized with port(s): 8080 (http)
+2019-09-03 20:57:13 -Starting service [Tomcat]
+2019-09-03 20:57:13 -Starting Servlet Engine: Apache Tomcat/8.5.16
+2019-09-03 20:57:13 -Initializing Spring embedded WebApplicationContext
+2019-09-03 20:57:13 -Root WebApplicationContext: initialization completed in 3494 ms
+2019-09-03 20:57:13 -Mapping servlet: 'dispatcherServlet' to [/]
+2019-09-03 20:57:13 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-09-03 20:57:13 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-09-03 20:57:13 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-09-03 20:57:13 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-09-03 20:57:14 -Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-09-03 20:57:14 -Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-09-03 20:57:14 -Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-09-03 20:57:14 -Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-09-03 20:57:14 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-09-03 20:57:14 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-09-03 20:57:14 -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 20:57:10 CST 2019]; root of context hierarchy
+2019-09-03 20:57:15 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 20:57:15 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 20:57:15 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 20:57:16 -Registering beans for JMX exposure on startup
+2019-09-03 20:57:16 -Context refreshed
+2019-09-03 20:57:16 -Found 1 custom documentation plugin(s)
+2019-09-03 20:57:16 -Scanning for api listing references
+2019-09-03 20:57:16 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-03 20:57:16 -Starting ProtocolHandler ["http-nio-8080"]
+2019-09-03 20:57:16 -Using a shared selector for servlet write/read
+2019-09-03 20:57:16 -Tomcat started on port(s): 8080 (http)
+2019-09-03 20:57:16 -Started WebSpringApplication in 6.755 seconds (JVM running for 7.944)
+2019-09-03 20:57:19 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-03 20:57:19 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-09-03 20:57:19 -FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2019-09-03 20:59:16 -Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 20:57:10 CST 2019]; root of context hierarchy
+2019-09-03 20:59:16 -Unregistering JMX-exposed beans on shutdown
+2019-09-03 20:59:23 -Starting WebSpringApplication on DESKTOP-FJ882IS with PID 22424 (C:\dev\refer\crazyim\crazy_tourist_circle__im\WebGate\target\classes started by wuqinglin in C:\dev\refer\crazyim\crazy_tourist_circle__im)
+2019-09-03 20:59:23 -No active profile set, falling back to default profiles: default
+2019-09-03 20:59:23 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 20:59:23 CST 2019]; root of context hierarchy
+2019-09-03 20:59:24 -HV000001: Hibernate Validator 5.3.5.Final
+2019-09-03 20:59:24 -No MyBatis mapper was found in '[com.crazymakercircle.start]' package. Please check your configuration.
+2019-09-03 20:59:24 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-03 20:59:25 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4f94935] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 20:59:27 -Tomcat initialized with port(s): 8080 (http)
+2019-09-03 20:59:27 -Starting service [Tomcat]
+2019-09-03 20:59:27 -Starting Servlet Engine: Apache Tomcat/8.5.16
+2019-09-03 20:59:27 -Initializing Spring embedded WebApplicationContext
+2019-09-03 20:59:27 -Root WebApplicationContext: initialization completed in 3499 ms
+2019-09-03 20:59:27 -Mapping servlet: 'dispatcherServlet' to [/]
+2019-09-03 20:59:27 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-09-03 20:59:27 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-09-03 20:59:27 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-09-03 20:59:27 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-09-03 20:59:28 -Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-09-03 20:59:28 -Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-09-03 20:59:28 -Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-09-03 20:59:28 -Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-09-03 20:59:28 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-09-03 20:59:28 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-09-03 20:59:28 -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 20:59:23 CST 2019]; root of context hierarchy
+2019-09-03 20:59:28 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 20:59:28 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 20:59:28 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 20:59:29 -Registering beans for JMX exposure on startup
+2019-09-03 20:59:29 -Context refreshed
+2019-09-03 20:59:29 -Found 1 custom documentation plugin(s)
+2019-09-03 20:59:29 -Scanning for api listing references
+2019-09-03 20:59:29 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-03 20:59:29 -Starting ProtocolHandler ["http-nio-8080"]
+2019-09-03 20:59:29 -Using a shared selector for servlet write/read
+2019-09-03 20:59:29 -Tomcat started on port(s): 8080 (http)
+2019-09-03 20:59:29 -Started WebSpringApplication in 6.638 seconds (JVM running for 7.803)
+2019-09-03 20:59:54 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-03 20:59:54 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-09-03 20:59:54 -FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2019-09-03 21:00:25 -Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 20:59:23 CST 2019]; root of context hierarchy
+2019-09-03 21:00:25 -Unregistering JMX-exposed beans on shutdown
+2019-09-03 21:00:35 -Starting WebSpringApplication on DESKTOP-FJ882IS with PID 16604 (C:\dev\refer\crazyim\crazy_tourist_circle__im\WebGate\target\classes started by wuqinglin in C:\dev\refer\crazyim\crazy_tourist_circle__im)
+2019-09-03 21:00:35 -No active profile set, falling back to default profiles: default
+2019-09-03 21:00:35 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 21:00:35 CST 2019]; root of context hierarchy
+2019-09-03 21:00:35 -HV000001: Hibernate Validator 5.3.5.Final
+2019-09-03 21:00:36 -Loading XML bean definitions from class path resource [spring-redis.xml]
+2019-09-03 21:00:36 -Overriding bean definition for bean 'redisCacheConfig' with a different definition: replacing [Generic bean: class [com.crazymakercircle.config.RedisCacheConfig]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\dev\refer\crazyim\crazy_tourist_circle__im\WebGate\target\classes\com\crazymakercircle\config\RedisCacheConfig.class]] with [Generic bean: class [com.crazymakercircle.config.RedisCacheConfig]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [spring-redis.xml]]
+2019-09-03 21:00:36 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-03 21:00:37 -Multiple PropertySourcesPlaceholderConfigurer beans registered [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0, swaggerProperties], falling back to Environment
+2019-09-03 21:00:37 -Bean 'poolConfig' of type [redis.clients.jedis.JedisPoolConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:00:37 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7ec58df5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:00:37 -Bean 'jedisConnectionFactory' of type [org.springframework.data.redis.connection.jedis.JedisConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:00:37 -Bean 'org.springframework.data.redis.serializer.StringRedisSerializer#70e13fa' of type [org.springframework.data.redis.serializer.StringRedisSerializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:00:37 -Bean 'org.springframework.data.redis.serializer.JdkSerializationRedisSerializer#6ff415ad' of type [org.springframework.data.redis.serializer.JdkSerializationRedisSerializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:00:37 -Bean 'org.springframework.data.redis.serializer.StringRedisSerializer#280d9edc' of type [org.springframework.data.redis.serializer.StringRedisSerializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:00:37 -Bean 'org.springframework.data.redis.serializer.JdkSerializationRedisSerializer#28fd3dc1' of type [org.springframework.data.redis.serializer.JdkSerializationRedisSerializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:00:37 -Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:00:37 -Bean 'redisCacheManager' of type [org.springframework.data.redis.cache.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:00:37 -Bean 'redisCacheConfig' of type [com.crazymakercircle.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$864a4931] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:00:37 -Bean 'keyGenerator' of type [com.crazymakercircle.config.RedisCacheConfig$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:00:37 -Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$c7d7c413] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:00:39 -Tomcat initialized with port(s): 8080 (http)
+2019-09-03 21:00:39 -Starting service [Tomcat]
+2019-09-03 21:00:39 -Starting Servlet Engine: Apache Tomcat/8.5.16
+2019-09-03 21:00:39 -Initializing Spring embedded WebApplicationContext
+2019-09-03 21:00:39 -Root WebApplicationContext: initialization completed in 4410 ms
+2019-09-03 21:00:39 -Mapping servlet: 'dispatcherServlet' to [/]
+2019-09-03 21:00:39 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-09-03 21:00:39 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-09-03 21:00:39 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-09-03 21:00:39 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-09-03 21:00:39 -Running in ZooKeeper 3.4.x compatibility mode
+2019-09-03 21:00:39 -Starting
+2019-09-03 21:00:39 -Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2019-09-03 21:00:39 -Client environment:host.name=DESKTOP-FJ882IS
+2019-09-03 21:00:39 -Client environment:java.version=1.8.0_91
+2019-09-03 21:00:39 -Client environment:java.vendor=Oracle Corporation
+2019-09-03 21:00:39 -Client environment:java.home=C:\Program Files\Java\jdk1.8.0_91\jre
+2019-09-03 21:00:39 -Client environment:java.class.path=C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\dev\refer\crazyim\crazy_tourist_circle__im\WebGate\target\classes;C:\Users\wuqinglin\.m2\repository\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;C:\Users\wuqinglin\.m2\repository\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\data\spring-data-redis\1.8.4.RELEASE\spring-data-redis-1.8.4.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\data\spring-data-keyvalue\1.2.6.RELEASE\spring-data-keyvalue-1.2.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\data\spring-data-commons\1.13.6.RELEASE\spring-data-commons-1.13.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-context\4.3.11.RELEASE\spring-context-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-tx\4.3.11.RELEASE\spring-tx-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-beans\4.3.11.RELEASE\spring-beans-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-oxm\4.3.11.RELEASE\spring-oxm-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-aop\4.3.11.RELEASE\spring-aop-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-context-support\4.3.11.RELEASE\spring-context-support-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\org\mybatis\spring\boot\mybatis-spring-boot-starter\1.3.1\mybatis-spring-boot-starter-1.3.1.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter\1.5.6.RELEASE\spring-boot-starter-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot\1.5.6.RELEASE\spring-boot-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\1.5.6.RELEASE\spring-boot-autoconfigure-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter-logging\1.5.6.RELEASE\spring-boot-starter-logging-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\ch\qos\logback\logback-classic\1.1.11\logback-classic-1.1.11.jar;C:\Users\wuqinglin\.m2\repository\ch\qos\logback\logback-core\1.1.11\logback-core-1.1.11.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\1.5.6.RELEASE\spring-boot-starter-jdbc-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\tomcat-jdbc\8.5.16\tomcat-jdbc-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\tomcat-juli\8.5.16\tomcat-juli-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-jdbc\4.3.11.RELEASE\spring-jdbc-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\mybatis\spring\boot\mybatis-spring-boot-autoconfigure\1.3.1\mybatis-spring-boot-autoconfigure-1.3.1.jar;C:\Users\wuqinglin\.m2\repository\org\mybatis\mybatis\3.4.5\mybatis-3.4.5.jar;C:\Users\wuqinglin\.m2\repository\org\mybatis\mybatis-spring\1.3.1\mybatis-spring-1.3.1.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter-web\1.5.6.RELEASE\spring-boot-starter-web-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\1.5.6.RELEASE\spring-boot-starter-tomcat-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.16\tomcat-embed-core-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.16\tomcat-embed-el-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.16\tomcat-embed-websocket-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\hibernate\hibernate-validator\5.3.5.Final\hibernate-validator-5.3.5.Final.jar;C:\Users\wuqinglin\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\wuqinglin\.m2\repository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;C:\Users\wuqinglin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.9\jackson-databind-2.8.9.jar;C:\Users\wuqinglin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\wuqinglin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.9\jackson-core-2.8.9.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-web\4.3.11.RELEASE\spring-web-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-webmvc\4.3.11.RELEASE\spring-webmvc-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-expression\4.3.11.RELEASE\spring-expression-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\mysql\mysql-connector-java\5.1.39\mysql-connector-java-5.1.39.jar;C:\Users\wuqinglin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\wuqinglin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-core\4.3.11.RELEASE\spring-core-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\tk\mybatis\mapper-spring-boot-starter\1.1.1\mapper-spring-boot-starter-1.1.1.jar;C:\Users\wuqinglin\.m2\repository\tk\mybatis\mapper-spring-boot-autoconfigure\1.1.1\mapper-spring-boot-autoconfigure-1.1.1.jar;C:\Users\wuqinglin\.m2\repository\tk\mybatis\mapper\3.4.0\mapper-3.4.0.jar;C:\Users\wuqinglin\.m2\repository\javax\persistence\persistence-api\1.0\persistence-api-1.0.jar;C:\Users\wuqinglin\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\wuqinglin\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\wuqinglin\.m2\repository\org\apache\zookeeper\zookeeper\3.4.8\zookeeper-3.4.8.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\wuqinglin\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\wuqinglin\.m2\repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;C:\Users\wuqinglin\.m2\repository\com\google\guava\guava\17.0\guava-17.0.jar;C:\Users\wuqinglin\.m2\repository\com\alibaba\fastjson\1.2.29\fastjson-1.2.29.jar;C:\Users\wuqinglin\.m2\repository\org\apache\curator\curator-framework\4.0.0\curator-framework-4.0.0.jar;C:\Users\wuqinglin\.m2\repository\org\apache\curator\curator-client\4.0.0\curator-client-4.0.0.jar;C:\Users\wuqinglin\.m2\repository\org\apache\curator\curator-recipes\4.0.0\curator-recipes-4.0.0.jar;C:\Users\wuqinglin\.m2\repository\org\projectlombok\lombok\1.16.10\lombok-1.16.10.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-swagger2\2.4.0\springfox-swagger2-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\swagger\swagger-annotations\1.5.6\swagger-annotations-1.5.6.jar;C:\Users\wuqinglin\.m2\repository\io\swagger\swagger-models\1.5.6\swagger-models-1.5.6.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-spi\2.4.0\springfox-spi-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-core\2.4.0\springfox-core-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-schema\2.4.0\springfox-schema-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-swagger-common\2.4.0\springfox-swagger-common-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-spring-web\2.4.0\springfox-spring-web-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\com\fasterxml\classmate\1.3.3\classmate-1.3.3.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\plugin\spring-plugin-core\1.2.0.RELEASE\spring-plugin-core-1.2.0.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\plugin\spring-plugin-metadata\1.2.0.RELEASE\spring-plugin-metadata-1.2.0.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-swagger-ui\2.4.0\springfox-swagger-ui-2.4.0.jar;C:\dev\refer\crazyim\crazy_tourist_circle__im\chat-common\target\classes;C:\Users\wuqinglin\.m2\repository\io\netty\netty-all\4.0.33.Final\netty-all-4.0.33.Final.jar;C:\Users\wuqinglin\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\wuqinglin\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.1\lib\idea_rt.jar;C:\Users\wuqinglin\.IdeaIC2019.2\system\captureAgent\debugger-agent.jar
+2019-09-03 21:00:39 -Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\TortoiseGit\bin;C:\tool\apache-maven-3.6.0\bin;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\Git\cmd;C:\Users\wuqinglin\AppData\Local\Microsoft\WindowsApps;;.
+2019-09-03 21:00:39 -Client environment:java.io.tmpdir=C:\Users\WUQING~1\AppData\Local\Temp\
+2019-09-03 21:00:39 -Client environment:java.compiler=<NA>
+2019-09-03 21:00:39 -Client environment:os.name=Windows 10
+2019-09-03 21:00:39 -Client environment:os.arch=amd64
+2019-09-03 21:00:39 -Client environment:os.version=10.0
+2019-09-03 21:00:39 -Client environment:user.name=wuqinglin
+2019-09-03 21:00:39 -Client environment:user.home=C:\Users\wuqinglin
+2019-09-03 21:00:39 -Client environment:user.dir=C:\dev\refer\crazyim\crazy_tourist_circle__im
+2019-09-03 21:00:39 -Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@236ae13d
+2019-09-03 21:00:40 -Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-03 21:00:40 -Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-09-03 21:00:40 -Default schema
+2019-09-03 21:00:40 -Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1000e705a960009, negotiated timeout = 60000
+2019-09-03 21:00:40 -State change: CONNECTED
+2019-09-03 21:00:41 -Mapped "{[/user/{userid}],methods=[DELETE],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.crazymakercircle.controller.UserAction.deleteById(java.lang.String)
+2019-09-03 21:00:41 -Mapped "{[/user/login/{username}/{password}],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.crazymakercircle.controller.UserAction.loginAction(java.lang.String,java.lang.String)
+2019-09-03 21:00:41 -Mapped "{[/user/{userid}],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.crazymakercircle.controller.UserAction.getById(java.lang.String)
+2019-09-03 21:00:41 -Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-09-03 21:00:41 -Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-09-03 21:00:41 -Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-09-03 21:00:41 -Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-09-03 21:00:41 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-09-03 21:00:41 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-09-03 21:00:41 -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 21:00:35 CST 2019]; root of context hierarchy
+2019-09-03 21:00:41 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 21:00:41 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 21:00:41 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 21:00:42 -Registering beans for JMX exposure on startup
+2019-09-03 21:00:42 -Context refreshed
+2019-09-03 21:00:42 -Found 1 custom documentation plugin(s)
+2019-09-03 21:00:42 -Scanning for api listing references
+2019-09-03 21:00:42 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:00:42 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:00:42 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:00:42 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:00:42 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:00:42 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:00:42 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:00:42 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:00:42 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:00:42 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-03 21:00:42 -Starting ProtocolHandler ["http-nio-8080"]
+2019-09-03 21:00:42 -Using a shared selector for servlet write/read
+2019-09-03 21:00:42 -Tomcat started on port(s): 8080 (http)
+2019-09-03 21:00:42 -Started WebSpringApplication in 8.209 seconds (JVM running for 9.318)
+2019-09-03 21:01:06 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-03 21:01:06 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-09-03 21:01:06 -FrameworkServlet 'dispatcherServlet': initialization completed in 40 ms
+2019-09-03 21:01:37 -child:
+2019-09-03 21:01:37 -child:
+2019-09-03 21:01:37 -全部节点如下：
+2019-09-03 21:02:50 -Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 21:00:35 CST 2019]; root of context hierarchy
+2019-09-03 21:02:50 -Unregistering JMX-exposed beans on shutdown
+2019-09-03 21:02:59 -Starting WebSpringApplication on DESKTOP-FJ882IS with PID 17184 (C:\dev\refer\crazyim\crazy_tourist_circle__im\WebGate\target\classes started by wuqinglin in C:\dev\refer\crazyim\crazy_tourist_circle__im)
+2019-09-03 21:02:59 -No active profile set, falling back to default profiles: default
+2019-09-03 21:02:59 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 21:02:59 CST 2019]; root of context hierarchy
+2019-09-03 21:02:59 -HV000001: Hibernate Validator 5.3.5.Final
+2019-09-03 21:03:00 -Loading XML bean definitions from class path resource [spring-redis.xml]
+2019-09-03 21:03:00 -Overriding bean definition for bean 'redisCacheConfig' with a different definition: replacing [Generic bean: class [com.crazymakercircle.config.RedisCacheConfig]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\dev\refer\crazyim\crazy_tourist_circle__im\WebGate\target\classes\com\crazymakercircle\config\RedisCacheConfig.class]] with [Generic bean: class [com.crazymakercircle.config.RedisCacheConfig]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [spring-redis.xml]]
+2019-09-03 21:03:00 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-03 21:03:01 -Multiple PropertySourcesPlaceholderConfigurer beans registered [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0, swaggerProperties], falling back to Environment
+2019-09-03 21:03:01 -Bean 'poolConfig' of type [redis.clients.jedis.JedisPoolConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:03:01 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$884cd7d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:03:02 -Bean 'jedisConnectionFactory' of type [org.springframework.data.redis.connection.jedis.JedisConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:03:02 -Bean 'org.springframework.data.redis.serializer.StringRedisSerializer#6a282fdd' of type [org.springframework.data.redis.serializer.StringRedisSerializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:03:02 -Bean 'org.springframework.data.redis.serializer.JdkSerializationRedisSerializer#743c6ce4' of type [org.springframework.data.redis.serializer.JdkSerializationRedisSerializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:03:02 -Bean 'org.springframework.data.redis.serializer.StringRedisSerializer#70331432' of type [org.springframework.data.redis.serializer.StringRedisSerializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:03:02 -Bean 'org.springframework.data.redis.serializer.JdkSerializationRedisSerializer#3bbf9027' of type [org.springframework.data.redis.serializer.JdkSerializationRedisSerializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:03:02 -Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:03:02 -Bean 'redisCacheManager' of type [org.springframework.data.redis.cache.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:03:02 -Bean 'redisCacheConfig' of type [com.crazymakercircle.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$8fd19315] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:03:02 -Bean 'keyGenerator' of type [com.crazymakercircle.config.RedisCacheConfig$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:03:02 -Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$d15f0df7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:03:03 -Tomcat initialized with port(s): 8080 (http)
+2019-09-03 21:03:03 -Starting service [Tomcat]
+2019-09-03 21:03:03 -Starting Servlet Engine: Apache Tomcat/8.5.16
+2019-09-03 21:03:03 -Initializing Spring embedded WebApplicationContext
+2019-09-03 21:03:03 -Root WebApplicationContext: initialization completed in 4582 ms
+2019-09-03 21:03:04 -Mapping servlet: 'dispatcherServlet' to [/]
+2019-09-03 21:03:04 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-09-03 21:03:04 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-09-03 21:03:04 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-09-03 21:03:04 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-09-03 21:03:04 -Running in ZooKeeper 3.4.x compatibility mode
+2019-09-03 21:03:04 -Starting
+2019-09-03 21:03:04 -Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2019-09-03 21:03:04 -Client environment:host.name=DESKTOP-FJ882IS
+2019-09-03 21:03:04 -Client environment:java.version=1.8.0_91
+2019-09-03 21:03:04 -Client environment:java.vendor=Oracle Corporation
+2019-09-03 21:03:04 -Client environment:java.home=C:\Program Files\Java\jdk1.8.0_91\jre
+2019-09-03 21:03:04 -Client environment:java.class.path=C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\dev\refer\crazyim\crazy_tourist_circle__im\WebGate\target\classes;C:\Users\wuqinglin\.m2\repository\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;C:\Users\wuqinglin\.m2\repository\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\data\spring-data-redis\1.8.4.RELEASE\spring-data-redis-1.8.4.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\data\spring-data-keyvalue\1.2.6.RELEASE\spring-data-keyvalue-1.2.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\data\spring-data-commons\1.13.6.RELEASE\spring-data-commons-1.13.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-context\4.3.11.RELEASE\spring-context-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-tx\4.3.11.RELEASE\spring-tx-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-beans\4.3.11.RELEASE\spring-beans-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-oxm\4.3.11.RELEASE\spring-oxm-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-aop\4.3.11.RELEASE\spring-aop-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-context-support\4.3.11.RELEASE\spring-context-support-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\org\mybatis\spring\boot\mybatis-spring-boot-starter\1.3.1\mybatis-spring-boot-starter-1.3.1.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter\1.5.6.RELEASE\spring-boot-starter-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot\1.5.6.RELEASE\spring-boot-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\1.5.6.RELEASE\spring-boot-autoconfigure-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter-logging\1.5.6.RELEASE\spring-boot-starter-logging-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\ch\qos\logback\logback-classic\1.1.11\logback-classic-1.1.11.jar;C:\Users\wuqinglin\.m2\repository\ch\qos\logback\logback-core\1.1.11\logback-core-1.1.11.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\1.5.6.RELEASE\spring-boot-starter-jdbc-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\tomcat-jdbc\8.5.16\tomcat-jdbc-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\tomcat-juli\8.5.16\tomcat-juli-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-jdbc\4.3.11.RELEASE\spring-jdbc-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\mybatis\spring\boot\mybatis-spring-boot-autoconfigure\1.3.1\mybatis-spring-boot-autoconfigure-1.3.1.jar;C:\Users\wuqinglin\.m2\repository\org\mybatis\mybatis\3.4.5\mybatis-3.4.5.jar;C:\Users\wuqinglin\.m2\repository\org\mybatis\mybatis-spring\1.3.1\mybatis-spring-1.3.1.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter-web\1.5.6.RELEASE\spring-boot-starter-web-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\1.5.6.RELEASE\spring-boot-starter-tomcat-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.16\tomcat-embed-core-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.16\tomcat-embed-el-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.16\tomcat-embed-websocket-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\hibernate\hibernate-validator\5.3.5.Final\hibernate-validator-5.3.5.Final.jar;C:\Users\wuqinglin\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\wuqinglin\.m2\repository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;C:\Users\wuqinglin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.9\jackson-databind-2.8.9.jar;C:\Users\wuqinglin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\wuqinglin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.9\jackson-core-2.8.9.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-web\4.3.11.RELEASE\spring-web-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-webmvc\4.3.11.RELEASE\spring-webmvc-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-expression\4.3.11.RELEASE\spring-expression-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\mysql\mysql-connector-java\5.1.39\mysql-connector-java-5.1.39.jar;C:\Users\wuqinglin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\wuqinglin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-core\4.3.11.RELEASE\spring-core-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\tk\mybatis\mapper-spring-boot-starter\1.1.1\mapper-spring-boot-starter-1.1.1.jar;C:\Users\wuqinglin\.m2\repository\tk\mybatis\mapper-spring-boot-autoconfigure\1.1.1\mapper-spring-boot-autoconfigure-1.1.1.jar;C:\Users\wuqinglin\.m2\repository\tk\mybatis\mapper\3.4.0\mapper-3.4.0.jar;C:\Users\wuqinglin\.m2\repository\javax\persistence\persistence-api\1.0\persistence-api-1.0.jar;C:\Users\wuqinglin\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\wuqinglin\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\wuqinglin\.m2\repository\org\apache\zookeeper\zookeeper\3.4.8\zookeeper-3.4.8.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\wuqinglin\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\wuqinglin\.m2\repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;C:\Users\wuqinglin\.m2\repository\com\google\guava\guava\17.0\guava-17.0.jar;C:\Users\wuqinglin\.m2\repository\com\alibaba\fastjson\1.2.29\fastjson-1.2.29.jar;C:\Users\wuqinglin\.m2\repository\org\apache\curator\curator-framework\4.0.0\curator-framework-4.0.0.jar;C:\Users\wuqinglin\.m2\repository\org\apache\curator\curator-client\4.0.0\curator-client-4.0.0.jar;C:\Users\wuqinglin\.m2\repository\org\apache\curator\curator-recipes\4.0.0\curator-recipes-4.0.0.jar;C:\Users\wuqinglin\.m2\repository\org\projectlombok\lombok\1.16.10\lombok-1.16.10.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-swagger2\2.4.0\springfox-swagger2-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\swagger\swagger-annotations\1.5.6\swagger-annotations-1.5.6.jar;C:\Users\wuqinglin\.m2\repository\io\swagger\swagger-models\1.5.6\swagger-models-1.5.6.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-spi\2.4.0\springfox-spi-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-core\2.4.0\springfox-core-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-schema\2.4.0\springfox-schema-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-swagger-common\2.4.0\springfox-swagger-common-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-spring-web\2.4.0\springfox-spring-web-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\com\fasterxml\classmate\1.3.3\classmate-1.3.3.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\plugin\spring-plugin-core\1.2.0.RELEASE\spring-plugin-core-1.2.0.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\plugin\spring-plugin-metadata\1.2.0.RELEASE\spring-plugin-metadata-1.2.0.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-swagger-ui\2.4.0\springfox-swagger-ui-2.4.0.jar;C:\dev\refer\crazyim\crazy_tourist_circle__im\chat-common\target\classes;C:\Users\wuqinglin\.m2\repository\io\netty\netty-all\4.0.33.Final\netty-all-4.0.33.Final.jar;C:\Users\wuqinglin\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\wuqinglin\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.1\lib\idea_rt.jar;C:\Users\wuqinglin\.IdeaIC2019.2\system\captureAgent\debugger-agent.jar
+2019-09-03 21:03:04 -Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\TortoiseGit\bin;C:\tool\apache-maven-3.6.0\bin;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\Git\cmd;C:\Users\wuqinglin\AppData\Local\Microsoft\WindowsApps;;.
+2019-09-03 21:03:04 -Client environment:java.io.tmpdir=C:\Users\WUQING~1\AppData\Local\Temp\
+2019-09-03 21:03:04 -Client environment:java.compiler=<NA>
+2019-09-03 21:03:04 -Client environment:os.name=Windows 10
+2019-09-03 21:03:04 -Client environment:os.arch=amd64
+2019-09-03 21:03:04 -Client environment:os.version=10.0
+2019-09-03 21:03:04 -Client environment:user.name=wuqinglin
+2019-09-03 21:03:04 -Client environment:user.home=C:\Users\wuqinglin
+2019-09-03 21:03:04 -Client environment:user.dir=C:\dev\refer\crazyim\crazy_tourist_circle__im
+2019-09-03 21:03:04 -Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@69c532af
+2019-09-03 21:03:04 -Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-03 21:03:04 -Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-09-03 21:03:04 -Default schema
+2019-09-03 21:03:04 -Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1000e705a96000a, negotiated timeout = 60000
+2019-09-03 21:03:04 -State change: CONNECTED
+2019-09-03 21:03:05 -Mapped "{[/user/login/{username}/{password}],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.crazymakercircle.controller.UserAction.loginAction(java.lang.String,java.lang.String)
+2019-09-03 21:03:05 -Mapped "{[/user/{userid}],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.crazymakercircle.controller.UserAction.getById(java.lang.String)
+2019-09-03 21:03:05 -Mapped "{[/user/{userid}],methods=[DELETE],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.crazymakercircle.controller.UserAction.deleteById(java.lang.String)
+2019-09-03 21:03:05 -Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-09-03 21:03:05 -Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-09-03 21:03:05 -Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-09-03 21:03:05 -Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-09-03 21:03:05 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-09-03 21:03:05 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-09-03 21:03:05 -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 21:02:59 CST 2019]; root of context hierarchy
+2019-09-03 21:03:06 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 21:03:06 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 21:03:06 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 21:03:06 -Registering beans for JMX exposure on startup
+2019-09-03 21:03:06 -Context refreshed
+2019-09-03 21:03:07 -Found 1 custom documentation plugin(s)
+2019-09-03 21:03:07 -Scanning for api listing references
+2019-09-03 21:03:07 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:03:07 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:03:07 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:03:07 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:03:07 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:03:07 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:03:07 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:03:07 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:03:07 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:03:07 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-03 21:03:07 -Starting ProtocolHandler ["http-nio-8080"]
+2019-09-03 21:03:07 -Using a shared selector for servlet write/read
+2019-09-03 21:03:07 -Tomcat started on port(s): 8080 (http)
+2019-09-03 21:03:07 -Started WebSpringApplication in 8.537 seconds (JVM running for 9.659)
+2019-09-03 21:03:07 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-03 21:03:07 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-09-03 21:03:07 -FrameworkServlet 'dispatcherServlet': initialization completed in 45 ms
+2019-09-03 21:03:11 -全部节点如下：
+2019-09-03 21:03:11 -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.crazymakercircle.Balance.ImLoadBalance.getBestWorker(ImLoadBalance.java:42)
+	at com.crazymakercircle.controller.UserAction.loginAction(UserAction.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-09-03 21:04:24 -Client session timed out, have not heard from server in 59794ms for sessionid 0x1000e705a96000a
+2019-09-03 21:04:24 -Client session timed out, have not heard from server in 59794ms for sessionid 0x1000e705a96000a, closing socket connection and attempting reconnect
+2019-09-03 21:04:24 -全部节点如下：
+2019-09-03 21:04:24 -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.crazymakercircle.Balance.ImLoadBalance.getBestWorker(ImLoadBalance.java:42)
+	at com.crazymakercircle.controller.UserAction.loginAction(UserAction.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-09-03 21:04:24 -Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 21:02:59 CST 2019]; root of context hierarchy
+2019-09-03 21:04:24 -Unregistering JMX-exposed beans on shutdown
+2019-09-03 21:04:24 -State change: SUSPENDED
+2019-09-03 21:04:32 -Starting WebSpringApplication on DESKTOP-FJ882IS with PID 13608 (C:\dev\refer\crazyim\crazy_tourist_circle__im\WebGate\target\classes started by wuqinglin in C:\dev\refer\crazyim\crazy_tourist_circle__im)
+2019-09-03 21:04:32 -No active profile set, falling back to default profiles: default
+2019-09-03 21:04:32 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 21:04:32 CST 2019]; root of context hierarchy
+2019-09-03 21:04:32 -HV000001: Hibernate Validator 5.3.5.Final
+2019-09-03 21:04:33 -Loading XML bean definitions from class path resource [spring-redis.xml]
+2019-09-03 21:04:33 -Overriding bean definition for bean 'redisCacheConfig' with a different definition: replacing [Generic bean: class [com.crazymakercircle.config.RedisCacheConfig]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\dev\refer\crazyim\crazy_tourist_circle__im\WebGate\target\classes\com\crazymakercircle\config\RedisCacheConfig.class]] with [Generic bean: class [com.crazymakercircle.config.RedisCacheConfig]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [spring-redis.xml]]
+2019-09-03 21:04:34 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-03 21:04:34 -Multiple PropertySourcesPlaceholderConfigurer beans registered [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0, swaggerProperties], falling back to Environment
+2019-09-03 21:04:35 -Bean 'poolConfig' of type [redis.clients.jedis.JedisPoolConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:04:35 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d4633db6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:04:35 -Bean 'jedisConnectionFactory' of type [org.springframework.data.redis.connection.jedis.JedisConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:04:35 -Bean 'org.springframework.data.redis.serializer.StringRedisSerializer#1ad8df52' of type [org.springframework.data.redis.serializer.StringRedisSerializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:04:35 -Bean 'org.springframework.data.redis.serializer.JdkSerializationRedisSerializer#45d6ef73' of type [org.springframework.data.redis.serializer.JdkSerializationRedisSerializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:04:35 -Bean 'org.springframework.data.redis.serializer.StringRedisSerializer#3f29e26' of type [org.springframework.data.redis.serializer.StringRedisSerializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:04:35 -Bean 'org.springframework.data.redis.serializer.JdkSerializationRedisSerializer#1f6d27cc' of type [org.springframework.data.redis.serializer.JdkSerializationRedisSerializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:04:35 -Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:04:35 -Bean 'redisCacheManager' of type [org.springframework.data.redis.cache.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:04:35 -Bean 'redisCacheConfig' of type [com.crazymakercircle.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$dbe7f8f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:04:35 -Bean 'keyGenerator' of type [com.crazymakercircle.config.RedisCacheConfig$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:04:35 -Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$1d7573d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:04:36 -Tomcat initialized with port(s): 8080 (http)
+2019-09-03 21:04:36 -Starting service [Tomcat]
+2019-09-03 21:04:36 -Starting Servlet Engine: Apache Tomcat/8.5.16
+2019-09-03 21:04:37 -Initializing Spring embedded WebApplicationContext
+2019-09-03 21:04:37 -Root WebApplicationContext: initialization completed in 4691 ms
+2019-09-03 21:04:37 -Mapping servlet: 'dispatcherServlet' to [/]
+2019-09-03 21:04:37 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-09-03 21:04:37 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-09-03 21:04:37 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-09-03 21:04:37 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-09-03 21:04:37 -Running in ZooKeeper 3.4.x compatibility mode
+2019-09-03 21:04:37 -Starting
+2019-09-03 21:04:37 -Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2019-09-03 21:04:37 -Client environment:host.name=DESKTOP-FJ882IS
+2019-09-03 21:04:37 -Client environment:java.version=1.8.0_91
+2019-09-03 21:04:37 -Client environment:java.vendor=Oracle Corporation
+2019-09-03 21:04:37 -Client environment:java.home=C:\Program Files\Java\jdk1.8.0_91\jre
+2019-09-03 21:04:37 -Client environment:java.class.path=C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\dev\refer\crazyim\crazy_tourist_circle__im\WebGate\target\classes;C:\Users\wuqinglin\.m2\repository\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;C:\Users\wuqinglin\.m2\repository\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\data\spring-data-redis\1.8.4.RELEASE\spring-data-redis-1.8.4.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\data\spring-data-keyvalue\1.2.6.RELEASE\spring-data-keyvalue-1.2.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\data\spring-data-commons\1.13.6.RELEASE\spring-data-commons-1.13.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-context\4.3.11.RELEASE\spring-context-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-tx\4.3.11.RELEASE\spring-tx-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-beans\4.3.11.RELEASE\spring-beans-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-oxm\4.3.11.RELEASE\spring-oxm-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-aop\4.3.11.RELEASE\spring-aop-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-context-support\4.3.11.RELEASE\spring-context-support-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\org\mybatis\spring\boot\mybatis-spring-boot-starter\1.3.1\mybatis-spring-boot-starter-1.3.1.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter\1.5.6.RELEASE\spring-boot-starter-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot\1.5.6.RELEASE\spring-boot-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\1.5.6.RELEASE\spring-boot-autoconfigure-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter-logging\1.5.6.RELEASE\spring-boot-starter-logging-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\ch\qos\logback\logback-classic\1.1.11\logback-classic-1.1.11.jar;C:\Users\wuqinglin\.m2\repository\ch\qos\logback\logback-core\1.1.11\logback-core-1.1.11.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\1.5.6.RELEASE\spring-boot-starter-jdbc-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\tomcat-jdbc\8.5.16\tomcat-jdbc-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\tomcat-juli\8.5.16\tomcat-juli-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-jdbc\4.3.11.RELEASE\spring-jdbc-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\mybatis\spring\boot\mybatis-spring-boot-autoconfigure\1.3.1\mybatis-spring-boot-autoconfigure-1.3.1.jar;C:\Users\wuqinglin\.m2\repository\org\mybatis\mybatis\3.4.5\mybatis-3.4.5.jar;C:\Users\wuqinglin\.m2\repository\org\mybatis\mybatis-spring\1.3.1\mybatis-spring-1.3.1.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter-web\1.5.6.RELEASE\spring-boot-starter-web-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\1.5.6.RELEASE\spring-boot-starter-tomcat-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.16\tomcat-embed-core-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.16\tomcat-embed-el-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.16\tomcat-embed-websocket-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\hibernate\hibernate-validator\5.3.5.Final\hibernate-validator-5.3.5.Final.jar;C:\Users\wuqinglin\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\wuqinglin\.m2\repository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;C:\Users\wuqinglin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.9\jackson-databind-2.8.9.jar;C:\Users\wuqinglin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\wuqinglin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.9\jackson-core-2.8.9.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-web\4.3.11.RELEASE\spring-web-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-webmvc\4.3.11.RELEASE\spring-webmvc-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-expression\4.3.11.RELEASE\spring-expression-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\mysql\mysql-connector-java\5.1.39\mysql-connector-java-5.1.39.jar;C:\Users\wuqinglin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\wuqinglin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-core\4.3.11.RELEASE\spring-core-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\tk\mybatis\mapper-spring-boot-starter\1.1.1\mapper-spring-boot-starter-1.1.1.jar;C:\Users\wuqinglin\.m2\repository\tk\mybatis\mapper-spring-boot-autoconfigure\1.1.1\mapper-spring-boot-autoconfigure-1.1.1.jar;C:\Users\wuqinglin\.m2\repository\tk\mybatis\mapper\3.4.0\mapper-3.4.0.jar;C:\Users\wuqinglin\.m2\repository\javax\persistence\persistence-api\1.0\persistence-api-1.0.jar;C:\Users\wuqinglin\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\wuqinglin\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\wuqinglin\.m2\repository\org\apache\zookeeper\zookeeper\3.4.8\zookeeper-3.4.8.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\wuqinglin\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\wuqinglin\.m2\repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;C:\Users\wuqinglin\.m2\repository\com\google\guava\guava\17.0\guava-17.0.jar;C:\Users\wuqinglin\.m2\repository\com\alibaba\fastjson\1.2.29\fastjson-1.2.29.jar;C:\Users\wuqinglin\.m2\repository\org\apache\curator\curator-framework\4.0.0\curator-framework-4.0.0.jar;C:\Users\wuqinglin\.m2\repository\org\apache\curator\curator-client\4.0.0\curator-client-4.0.0.jar;C:\Users\wuqinglin\.m2\repository\org\apache\curator\curator-recipes\4.0.0\curator-recipes-4.0.0.jar;C:\Users\wuqinglin\.m2\repository\org\projectlombok\lombok\1.16.10\lombok-1.16.10.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-swagger2\2.4.0\springfox-swagger2-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\swagger\swagger-annotations\1.5.6\swagger-annotations-1.5.6.jar;C:\Users\wuqinglin\.m2\repository\io\swagger\swagger-models\1.5.6\swagger-models-1.5.6.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-spi\2.4.0\springfox-spi-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-core\2.4.0\springfox-core-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-schema\2.4.0\springfox-schema-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-swagger-common\2.4.0\springfox-swagger-common-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-spring-web\2.4.0\springfox-spring-web-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\com\fasterxml\classmate\1.3.3\classmate-1.3.3.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\plugin\spring-plugin-core\1.2.0.RELEASE\spring-plugin-core-1.2.0.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\plugin\spring-plugin-metadata\1.2.0.RELEASE\spring-plugin-metadata-1.2.0.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-swagger-ui\2.4.0\springfox-swagger-ui-2.4.0.jar;C:\dev\refer\crazyim\crazy_tourist_circle__im\chat-common\target\classes;C:\Users\wuqinglin\.m2\repository\io\netty\netty-all\4.0.33.Final\netty-all-4.0.33.Final.jar;C:\Users\wuqinglin\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\wuqinglin\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.1\lib\idea_rt.jar;C:\Users\wuqinglin\.IdeaIC2019.2\system\captureAgent\debugger-agent.jar
+2019-09-03 21:04:37 -Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\TortoiseGit\bin;C:\tool\apache-maven-3.6.0\bin;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\Git\cmd;C:\Users\wuqinglin\AppData\Local\Microsoft\WindowsApps;;.
+2019-09-03 21:04:37 -Client environment:java.io.tmpdir=C:\Users\WUQING~1\AppData\Local\Temp\
+2019-09-03 21:04:37 -Client environment:java.compiler=<NA>
+2019-09-03 21:04:37 -Client environment:os.name=Windows 10
+2019-09-03 21:04:37 -Client environment:os.arch=amd64
+2019-09-03 21:04:37 -Client environment:os.version=10.0
+2019-09-03 21:04:37 -Client environment:user.name=wuqinglin
+2019-09-03 21:04:37 -Client environment:user.home=C:\Users\wuqinglin
+2019-09-03 21:04:37 -Client environment:user.dir=C:\dev\refer\crazyim\crazy_tourist_circle__im
+2019-09-03 21:04:37 -Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6d6ac396
+2019-09-03 21:04:37 -Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-03 21:04:37 -Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-09-03 21:04:37 -Default schema
+2019-09-03 21:04:37 -Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1000e705a96000b, negotiated timeout = 60000
+2019-09-03 21:04:37 -State change: CONNECTED
+2019-09-03 21:04:38 -Mapped "{[/user/login/{username}/{password}],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.crazymakercircle.controller.UserAction.loginAction(java.lang.String,java.lang.String)
+2019-09-03 21:04:38 -Mapped "{[/user/{userid}],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.crazymakercircle.controller.UserAction.getById(java.lang.String)
+2019-09-03 21:04:38 -Mapped "{[/user/{userid}],methods=[DELETE],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.crazymakercircle.controller.UserAction.deleteById(java.lang.String)
+2019-09-03 21:04:38 -Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-09-03 21:04:38 -Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-09-03 21:04:38 -Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-09-03 21:04:38 -Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-09-03 21:04:38 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-09-03 21:04:38 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-09-03 21:04:39 -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 21:04:32 CST 2019]; root of context hierarchy
+2019-09-03 21:04:39 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 21:04:39 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 21:04:39 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 21:04:40 -Registering beans for JMX exposure on startup
+2019-09-03 21:04:40 -Context refreshed
+2019-09-03 21:04:40 -Found 1 custom documentation plugin(s)
+2019-09-03 21:04:40 -Scanning for api listing references
+2019-09-03 21:04:40 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:04:40 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:04:40 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:04:40 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:04:40 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:04:40 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:04:40 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:04:40 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:04:40 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:04:40 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-03 21:04:40 -Starting ProtocolHandler ["http-nio-8080"]
+2019-09-03 21:04:40 -Using a shared selector for servlet write/read
+2019-09-03 21:04:40 -Tomcat started on port(s): 8080 (http)
+2019-09-03 21:04:40 -Started WebSpringApplication in 8.579 seconds (JVM running for 9.684)
+2019-09-03 21:04:40 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-03 21:04:40 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-09-03 21:04:40 -FrameworkServlet 'dispatcherServlet': initialization completed in 45 ms
+2019-09-03 21:04:46 -child:
+2019-09-03 21:04:46 -child:
+2019-09-03 21:04:46 -全部节点如下：
+2019-09-03 21:06:03 -Client session timed out, have not heard from server in 57087ms for sessionid 0x1000e705a96000b
+2019-09-03 21:06:03 -Client session timed out, have not heard from server in 57087ms for sessionid 0x1000e705a96000b, closing socket connection and attempting reconnect
+2019-09-03 21:06:04 -State change: SUSPENDED
+2019-09-03 21:06:05 -Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-03 21:06:05 -Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-09-03 21:06:05 -Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1000e705a96000b, negotiated timeout = 60000
+2019-09-03 21:06:05 -State change: RECONNECTED
+2019-09-03 21:07:02 -Client session timed out, have not heard from server in 57539ms for sessionid 0x1000e705a96000b
+2019-09-03 21:07:02 -Client session timed out, have not heard from server in 57539ms for sessionid 0x1000e705a96000b, closing socket connection and attempting reconnect
+2019-09-03 21:07:02 -child:
+2019-09-03 21:07:11 -State change: SUSPENDED
+2019-09-03 21:07:11 -child:
+2019-09-03 21:07:11 -全部节点如下：
+2019-09-03 21:07:11 -Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 21:04:32 CST 2019]; root of context hierarchy
+2019-09-03 21:07:11 -Unregistering JMX-exposed beans on shutdown
+2019-09-03 21:07:22 -Starting WebSpringApplication on DESKTOP-FJ882IS with PID 16192 (C:\dev\refer\crazyim\crazy_tourist_circle__im\WebGate\target\classes started by wuqinglin in C:\dev\refer\crazyim\crazy_tourist_circle__im)
+2019-09-03 21:07:22 -No active profile set, falling back to default profiles: default
+2019-09-03 21:07:22 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 21:07:22 CST 2019]; root of context hierarchy
+2019-09-03 21:07:22 -HV000001: Hibernate Validator 5.3.5.Final
+2019-09-03 21:07:23 -Loading XML bean definitions from class path resource [spring-redis.xml]
+2019-09-03 21:07:24 -Overriding bean definition for bean 'redisCacheConfig' with a different definition: replacing [Generic bean: class [com.crazymakercircle.config.RedisCacheConfig]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\dev\refer\crazyim\crazy_tourist_circle__im\WebGate\target\classes\com\crazymakercircle\config\RedisCacheConfig.class]] with [Generic bean: class [com.crazymakercircle.config.RedisCacheConfig]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [spring-redis.xml]]
+2019-09-03 21:07:24 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-03 21:07:25 -Multiple PropertySourcesPlaceholderConfigurer beans registered [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0, swaggerProperties], falling back to Environment
+2019-09-03 21:07:25 -Bean 'poolConfig' of type [redis.clients.jedis.JedisPoolConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:07:25 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ca7435c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:07:25 -Bean 'jedisConnectionFactory' of type [org.springframework.data.redis.connection.jedis.JedisConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:07:25 -Bean 'org.springframework.data.redis.serializer.StringRedisSerializer#7d0cc890' of type [org.springframework.data.redis.serializer.StringRedisSerializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:07:25 -Bean 'org.springframework.data.redis.serializer.JdkSerializationRedisSerializer#49293b43' of type [org.springframework.data.redis.serializer.JdkSerializationRedisSerializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:07:25 -Bean 'org.springframework.data.redis.serializer.StringRedisSerializer#5ff60a8c' of type [org.springframework.data.redis.serializer.StringRedisSerializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:07:25 -Bean 'org.springframework.data.redis.serializer.JdkSerializationRedisSerializer#7ce4de34' of type [org.springframework.data.redis.serializer.JdkSerializationRedisSerializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:07:25 -Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:07:25 -Bean 'redisCacheManager' of type [org.springframework.data.redis.cache.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:07:25 -Bean 'redisCacheConfig' of type [com.crazymakercircle.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$d1f8f0fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:07:25 -Bean 'keyGenerator' of type [com.crazymakercircle.config.RedisCacheConfig$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:07:25 -Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$13866be0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:07:27 -Tomcat initialized with port(s): 8080 (http)
+2019-09-03 21:07:27 -Starting service [Tomcat]
+2019-09-03 21:07:27 -Starting Servlet Engine: Apache Tomcat/8.5.16
+2019-09-03 21:07:27 -Initializing Spring embedded WebApplicationContext
+2019-09-03 21:07:27 -Root WebApplicationContext: initialization completed in 4818 ms
+2019-09-03 21:07:27 -Mapping servlet: 'dispatcherServlet' to [/]
+2019-09-03 21:07:27 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-09-03 21:07:27 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-09-03 21:07:27 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-09-03 21:07:27 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-09-03 21:07:27 -Running in ZooKeeper 3.4.x compatibility mode
+2019-09-03 21:07:27 -Starting
+2019-09-03 21:07:27 -Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2019-09-03 21:07:27 -Client environment:host.name=DESKTOP-FJ882IS
+2019-09-03 21:07:27 -Client environment:java.version=1.8.0_91
+2019-09-03 21:07:27 -Client environment:java.vendor=Oracle Corporation
+2019-09-03 21:07:27 -Client environment:java.home=C:\Program Files\Java\jdk1.8.0_91\jre
+2019-09-03 21:07:27 -Client environment:java.class.path=C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\dev\refer\crazyim\crazy_tourist_circle__im\WebGate\target\classes;C:\Users\wuqinglin\.m2\repository\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;C:\Users\wuqinglin\.m2\repository\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\data\spring-data-redis\1.8.4.RELEASE\spring-data-redis-1.8.4.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\data\spring-data-keyvalue\1.2.6.RELEASE\spring-data-keyvalue-1.2.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\data\spring-data-commons\1.13.6.RELEASE\spring-data-commons-1.13.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-context\4.3.11.RELEASE\spring-context-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-tx\4.3.11.RELEASE\spring-tx-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-beans\4.3.11.RELEASE\spring-beans-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-oxm\4.3.11.RELEASE\spring-oxm-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-aop\4.3.11.RELEASE\spring-aop-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-context-support\4.3.11.RELEASE\spring-context-support-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\org\mybatis\spring\boot\mybatis-spring-boot-starter\1.3.1\mybatis-spring-boot-starter-1.3.1.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter\1.5.6.RELEASE\spring-boot-starter-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot\1.5.6.RELEASE\spring-boot-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\1.5.6.RELEASE\spring-boot-autoconfigure-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter-logging\1.5.6.RELEASE\spring-boot-starter-logging-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\ch\qos\logback\logback-classic\1.1.11\logback-classic-1.1.11.jar;C:\Users\wuqinglin\.m2\repository\ch\qos\logback\logback-core\1.1.11\logback-core-1.1.11.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\1.5.6.RELEASE\spring-boot-starter-jdbc-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\tomcat-jdbc\8.5.16\tomcat-jdbc-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\tomcat-juli\8.5.16\tomcat-juli-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-jdbc\4.3.11.RELEASE\spring-jdbc-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\mybatis\spring\boot\mybatis-spring-boot-autoconfigure\1.3.1\mybatis-spring-boot-autoconfigure-1.3.1.jar;C:\Users\wuqinglin\.m2\repository\org\mybatis\mybatis\3.4.5\mybatis-3.4.5.jar;C:\Users\wuqinglin\.m2\repository\org\mybatis\mybatis-spring\1.3.1\mybatis-spring-1.3.1.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter-web\1.5.6.RELEASE\spring-boot-starter-web-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\1.5.6.RELEASE\spring-boot-starter-tomcat-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.16\tomcat-embed-core-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.16\tomcat-embed-el-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.16\tomcat-embed-websocket-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\hibernate\hibernate-validator\5.3.5.Final\hibernate-validator-5.3.5.Final.jar;C:\Users\wuqinglin\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\wuqinglin\.m2\repository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;C:\Users\wuqinglin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.9\jackson-databind-2.8.9.jar;C:\Users\wuqinglin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\wuqinglin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.9\jackson-core-2.8.9.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-web\4.3.11.RELEASE\spring-web-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-webmvc\4.3.11.RELEASE\spring-webmvc-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-expression\4.3.11.RELEASE\spring-expression-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\mysql\mysql-connector-java\5.1.39\mysql-connector-java-5.1.39.jar;C:\Users\wuqinglin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\wuqinglin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-core\4.3.11.RELEASE\spring-core-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\tk\mybatis\mapper-spring-boot-starter\1.1.1\mapper-spring-boot-starter-1.1.1.jar;C:\Users\wuqinglin\.m2\repository\tk\mybatis\mapper-spring-boot-autoconfigure\1.1.1\mapper-spring-boot-autoconfigure-1.1.1.jar;C:\Users\wuqinglin\.m2\repository\tk\mybatis\mapper\3.4.0\mapper-3.4.0.jar;C:\Users\wuqinglin\.m2\repository\javax\persistence\persistence-api\1.0\persistence-api-1.0.jar;C:\Users\wuqinglin\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\wuqinglin\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\wuqinglin\.m2\repository\org\apache\zookeeper\zookeeper\3.4.8\zookeeper-3.4.8.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\wuqinglin\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\wuqinglin\.m2\repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;C:\Users\wuqinglin\.m2\repository\com\google\guava\guava\17.0\guava-17.0.jar;C:\Users\wuqinglin\.m2\repository\com\alibaba\fastjson\1.2.29\fastjson-1.2.29.jar;C:\Users\wuqinglin\.m2\repository\org\apache\curator\curator-framework\4.0.0\curator-framework-4.0.0.jar;C:\Users\wuqinglin\.m2\repository\org\apache\curator\curator-client\4.0.0\curator-client-4.0.0.jar;C:\Users\wuqinglin\.m2\repository\org\apache\curator\curator-recipes\4.0.0\curator-recipes-4.0.0.jar;C:\Users\wuqinglin\.m2\repository\org\projectlombok\lombok\1.16.10\lombok-1.16.10.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-swagger2\2.4.0\springfox-swagger2-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\swagger\swagger-annotations\1.5.6\swagger-annotations-1.5.6.jar;C:\Users\wuqinglin\.m2\repository\io\swagger\swagger-models\1.5.6\swagger-models-1.5.6.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-spi\2.4.0\springfox-spi-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-core\2.4.0\springfox-core-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-schema\2.4.0\springfox-schema-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-swagger-common\2.4.0\springfox-swagger-common-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-spring-web\2.4.0\springfox-spring-web-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\com\fasterxml\classmate\1.3.3\classmate-1.3.3.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\plugin\spring-plugin-core\1.2.0.RELEASE\spring-plugin-core-1.2.0.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\plugin\spring-plugin-metadata\1.2.0.RELEASE\spring-plugin-metadata-1.2.0.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-swagger-ui\2.4.0\springfox-swagger-ui-2.4.0.jar;C:\dev\refer\crazyim\crazy_tourist_circle__im\chat-common\target\classes;C:\Users\wuqinglin\.m2\repository\io\netty\netty-all\4.0.33.Final\netty-all-4.0.33.Final.jar;C:\Users\wuqinglin\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\wuqinglin\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.1\lib\idea_rt.jar;C:\Users\wuqinglin\.IdeaIC2019.2\system\captureAgent\debugger-agent.jar
+2019-09-03 21:07:27 -Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\TortoiseGit\bin;C:\tool\apache-maven-3.6.0\bin;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\Git\cmd;C:\Users\wuqinglin\AppData\Local\Microsoft\WindowsApps;;.
+2019-09-03 21:07:27 -Client environment:java.io.tmpdir=C:\Users\WUQING~1\AppData\Local\Temp\
+2019-09-03 21:07:27 -Client environment:java.compiler=<NA>
+2019-09-03 21:07:27 -Client environment:os.name=Windows 10
+2019-09-03 21:07:27 -Client environment:os.arch=amd64
+2019-09-03 21:07:27 -Client environment:os.version=10.0
+2019-09-03 21:07:27 -Client environment:user.name=wuqinglin
+2019-09-03 21:07:27 -Client environment:user.home=C:\Users\wuqinglin
+2019-09-03 21:07:27 -Client environment:user.dir=C:\dev\refer\crazyim\crazy_tourist_circle__im
+2019-09-03 21:07:27 -Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@5707f613
+2019-09-03 21:07:27 -Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-03 21:07:27 -Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-09-03 21:07:27 -Default schema
+2019-09-03 21:07:27 -Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1000e705a96000c, negotiated timeout = 60000
+2019-09-03 21:07:27 -State change: CONNECTED
+2019-09-03 21:07:29 -Mapped "{[/user/{userid}],methods=[DELETE],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.crazymakercircle.controller.UserAction.deleteById(java.lang.String)
+2019-09-03 21:07:29 -Mapped "{[/user/login/{username}/{password}],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.crazymakercircle.controller.UserAction.loginAction(java.lang.String,java.lang.String)
+2019-09-03 21:07:29 -Mapped "{[/user/{userid}],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.crazymakercircle.controller.UserAction.getById(java.lang.String)
+2019-09-03 21:07:29 -Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-09-03 21:07:29 -Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-09-03 21:07:29 -Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-09-03 21:07:29 -Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-09-03 21:07:29 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-09-03 21:07:29 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-09-03 21:07:29 -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 21:07:22 CST 2019]; root of context hierarchy
+2019-09-03 21:07:29 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 21:07:29 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 21:07:29 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 21:07:30 -Registering beans for JMX exposure on startup
+2019-09-03 21:07:30 -Context refreshed
+2019-09-03 21:07:30 -Found 1 custom documentation plugin(s)
+2019-09-03 21:07:30 -Scanning for api listing references
+2019-09-03 21:07:30 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:07:30 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:07:30 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:07:30 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:07:30 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:07:30 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:07:30 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:07:30 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:07:30 -Coercing to be of type string. This may not even be a scalar type in actuality
+2019-09-03 21:07:30 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-03 21:07:30 -Starting ProtocolHandler ["http-nio-8080"]
+2019-09-03 21:07:30 -Using a shared selector for servlet write/read
+2019-09-03 21:07:30 -Tomcat started on port(s): 8080 (http)
+2019-09-03 21:07:30 -Started WebSpringApplication in 8.914 seconds (JVM running for 9.969)
+2019-09-03 21:07:46 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-03 21:07:46 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-09-03 21:07:46 -FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2019-09-03 21:07:58 -child:
+2019-09-03 21:08:17 -child:
+2019-09-03 21:08:28 -全部节点如下：
+2019-09-03 21:08:29 -节点信息：{"id":0,"balance":0,"host":"192.168.0.5","port":7000}
+2019-09-03 21:08:29 -节点信息：{"id":0,"balance":0,"host":"192.168.0.5","port":7001}
+2019-09-03 21:08:30 -最佳的节点为：{"id":0,"balance":0,"host":"192.168.0.5","port":7000}
+2019-09-03 21:17:56 -Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 21:07:22 CST 2019]; root of context hierarchy
+2019-09-03 21:17:56 -Unregistering JMX-exposed beans on shutdown
+2019-09-03 21:18:08 -Starting WebSpringApplication on DESKTOP-FJ882IS with PID 9016 (C:\dev\refer\crazyim\crazy_tourist_circle__im\WebGate\target\classes started by wuqinglin in C:\dev\refer\crazyim\crazy_tourist_circle__im)
+2019-09-03 21:18:08 -No active profile set, falling back to default profiles: default
+2019-09-03 21:18:08 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 21:18:08 CST 2019]; root of context hierarchy
+2019-09-03 21:18:08 -HV000001: Hibernate Validator 5.3.5.Final
+2019-09-03 21:18:09 -Loading XML bean definitions from class path resource [spring-redis.xml]
+2019-09-03 21:18:09 -Overriding bean definition for bean 'redisCacheConfig' with a different definition: replacing [Generic bean: class [com.crazymakercircle.config.RedisCacheConfig]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\dev\refer\crazyim\crazy_tourist_circle__im\WebGate\target\classes\com\crazymakercircle\config\RedisCacheConfig.class]] with [Generic bean: class [com.crazymakercircle.config.RedisCacheConfig]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [spring-redis.xml]]
+2019-09-03 21:18:09 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-03 21:18:10 -Multiple PropertySourcesPlaceholderConfigurer beans registered [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0, swaggerProperties], falling back to Environment
+2019-09-03 21:18:10 -Bean 'poolConfig' of type [redis.clients.jedis.JedisPoolConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:18:10 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$25d48bda] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:18:10 -Bean 'jedisConnectionFactory' of type [org.springframework.data.redis.connection.jedis.JedisConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:18:10 -Bean 'org.springframework.data.redis.serializer.StringRedisSerializer#3fdecce' of type [org.springframework.data.redis.serializer.StringRedisSerializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:18:10 -Bean 'org.springframework.data.redis.serializer.JdkSerializationRedisSerializer#344426bf' of type [org.springframework.data.redis.serializer.JdkSerializationRedisSerializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:18:10 -Bean 'org.springframework.data.redis.serializer.StringRedisSerializer#5411dd90' of type [org.springframework.data.redis.serializer.StringRedisSerializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:18:10 -Bean 'org.springframework.data.redis.serializer.JdkSerializationRedisSerializer#50194e8d' of type [org.springframework.data.redis.serializer.JdkSerializationRedisSerializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:18:10 -Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:18:10 -Bean 'redisCacheManager' of type [org.springframework.data.redis.cache.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:18:10 -Bean 'redisCacheConfig' of type [com.crazymakercircle.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$2d594716] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:18:10 -Bean 'keyGenerator' of type [com.crazymakercircle.config.RedisCacheConfig$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:18:10 -Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$6ee6c1f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-03 21:18:12 -Tomcat initialized with port(s): 8080 (http)
+2019-09-03 21:18:12 -Starting service [Tomcat]
+2019-09-03 21:18:12 -Starting Servlet Engine: Apache Tomcat/8.5.16
+2019-09-03 21:18:12 -Initializing Spring embedded WebApplicationContext
+2019-09-03 21:18:12 -Root WebApplicationContext: initialization completed in 4665 ms
+2019-09-03 21:18:13 -Mapping servlet: 'dispatcherServlet' to [/]
+2019-09-03 21:18:13 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-09-03 21:18:13 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-09-03 21:18:13 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-09-03 21:18:13 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-09-03 21:18:13 -Running in ZooKeeper 3.4.x compatibility mode
+2019-09-03 21:18:13 -Starting
+2019-09-03 21:18:13 -Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2019-09-03 21:18:13 -Client environment:host.name=DESKTOP-FJ882IS
+2019-09-03 21:18:13 -Client environment:java.version=1.8.0_91
+2019-09-03 21:18:13 -Client environment:java.vendor=Oracle Corporation
+2019-09-03 21:18:13 -Client environment:java.home=C:\Program Files\Java\jdk1.8.0_91\jre
+2019-09-03 21:18:13 -Client environment:java.class.path=C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\dev\refer\crazyim\crazy_tourist_circle__im\WebGate\target\classes;C:\Users\wuqinglin\.m2\repository\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;C:\Users\wuqinglin\.m2\repository\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\data\spring-data-redis\1.8.4.RELEASE\spring-data-redis-1.8.4.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\data\spring-data-keyvalue\1.2.6.RELEASE\spring-data-keyvalue-1.2.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\data\spring-data-commons\1.13.6.RELEASE\spring-data-commons-1.13.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-context\4.3.11.RELEASE\spring-context-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-tx\4.3.11.RELEASE\spring-tx-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-beans\4.3.11.RELEASE\spring-beans-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-oxm\4.3.11.RELEASE\spring-oxm-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-aop\4.3.11.RELEASE\spring-aop-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-context-support\4.3.11.RELEASE\spring-context-support-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\org\mybatis\spring\boot\mybatis-spring-boot-starter\1.3.1\mybatis-spring-boot-starter-1.3.1.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter\1.5.6.RELEASE\spring-boot-starter-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot\1.5.6.RELEASE\spring-boot-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\1.5.6.RELEASE\spring-boot-autoconfigure-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter-logging\1.5.6.RELEASE\spring-boot-starter-logging-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\ch\qos\logback\logback-classic\1.1.11\logback-classic-1.1.11.jar;C:\Users\wuqinglin\.m2\repository\ch\qos\logback\logback-core\1.1.11\logback-core-1.1.11.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\1.5.6.RELEASE\spring-boot-starter-jdbc-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\tomcat-jdbc\8.5.16\tomcat-jdbc-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\tomcat-juli\8.5.16\tomcat-juli-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-jdbc\4.3.11.RELEASE\spring-jdbc-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\mybatis\spring\boot\mybatis-spring-boot-autoconfigure\1.3.1\mybatis-spring-boot-autoconfigure-1.3.1.jar;C:\Users\wuqinglin\.m2\repository\org\mybatis\mybatis\3.4.5\mybatis-3.4.5.jar;C:\Users\wuqinglin\.m2\repository\org\mybatis\mybatis-spring\1.3.1\mybatis-spring-1.3.1.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter-web\1.5.6.RELEASE\spring-boot-starter-web-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\1.5.6.RELEASE\spring-boot-starter-tomcat-1.5.6.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.16\tomcat-embed-core-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.16\tomcat-embed-el-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.16\tomcat-embed-websocket-8.5.16.jar;C:\Users\wuqinglin\.m2\repository\org\hibernate\hibernate-validator\5.3.5.Final\hibernate-validator-5.3.5.Final.jar;C:\Users\wuqinglin\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\wuqinglin\.m2\repository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;C:\Users\wuqinglin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.9\jackson-databind-2.8.9.jar;C:\Users\wuqinglin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\wuqinglin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.9\jackson-core-2.8.9.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-web\4.3.11.RELEASE\spring-web-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-webmvc\4.3.11.RELEASE\spring-webmvc-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-expression\4.3.11.RELEASE\spring-expression-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\mysql\mysql-connector-java\5.1.39\mysql-connector-java-5.1.39.jar;C:\Users\wuqinglin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\wuqinglin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\spring-core\4.3.11.RELEASE\spring-core-4.3.11.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\tk\mybatis\mapper-spring-boot-starter\1.1.1\mapper-spring-boot-starter-1.1.1.jar;C:\Users\wuqinglin\.m2\repository\tk\mybatis\mapper-spring-boot-autoconfigure\1.1.1\mapper-spring-boot-autoconfigure-1.1.1.jar;C:\Users\wuqinglin\.m2\repository\tk\mybatis\mapper\3.4.0\mapper-3.4.0.jar;C:\Users\wuqinglin\.m2\repository\javax\persistence\persistence-api\1.0\persistence-api-1.0.jar;C:\Users\wuqinglin\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\wuqinglin\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\wuqinglin\.m2\repository\org\apache\zookeeper\zookeeper\3.4.8\zookeeper-3.4.8.jar;C:\Users\wuqinglin\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\wuqinglin\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\wuqinglin\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\wuqinglin\.m2\repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;C:\Users\wuqinglin\.m2\repository\com\google\guava\guava\17.0\guava-17.0.jar;C:\Users\wuqinglin\.m2\repository\com\alibaba\fastjson\1.2.29\fastjson-1.2.29.jar;C:\Users\wuqinglin\.m2\repository\org\apache\curator\curator-framework\4.0.0\curator-framework-4.0.0.jar;C:\Users\wuqinglin\.m2\repository\org\apache\curator\curator-client\4.0.0\curator-client-4.0.0.jar;C:\Users\wuqinglin\.m2\repository\org\apache\curator\curator-recipes\4.0.0\curator-recipes-4.0.0.jar;C:\Users\wuqinglin\.m2\repository\org\projectlombok\lombok\1.16.10\lombok-1.16.10.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-swagger2\2.4.0\springfox-swagger2-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\swagger\swagger-annotations\1.5.6\swagger-annotations-1.5.6.jar;C:\Users\wuqinglin\.m2\repository\io\swagger\swagger-models\1.5.6\swagger-models-1.5.6.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-spi\2.4.0\springfox-spi-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-core\2.4.0\springfox-core-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-schema\2.4.0\springfox-schema-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-swagger-common\2.4.0\springfox-swagger-common-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-spring-web\2.4.0\springfox-spring-web-2.4.0.jar;C:\Users\wuqinglin\.m2\repository\com\fasterxml\classmate\1.3.3\classmate-1.3.3.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\plugin\spring-plugin-core\1.2.0.RELEASE\spring-plugin-core-1.2.0.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\org\springframework\plugin\spring-plugin-metadata\1.2.0.RELEASE\spring-plugin-metadata-1.2.0.RELEASE.jar;C:\Users\wuqinglin\.m2\repository\io\springfox\springfox-swagger-ui\2.4.0\springfox-swagger-ui-2.4.0.jar;C:\dev\refer\crazyim\crazy_tourist_circle__im\chat-common\target\classes;C:\Users\wuqinglin\.m2\repository\io\netty\netty-all\4.0.33.Final\netty-all-4.0.33.Final.jar;C:\Users\wuqinglin\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\wuqinglin\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.1\lib\idea_rt.jar;C:\Users\wuqinglin\.IdeaIC2019.2\system\captureAgent\debugger-agent.jar
+2019-09-03 21:18:13 -Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\TortoiseGit\bin;C:\tool\apache-maven-3.6.0\bin;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\Git\cmd;C:\Users\wuqinglin\AppData\Local\Microsoft\WindowsApps;;.
+2019-09-03 21:18:13 -Client environment:java.io.tmpdir=C:\Users\WUQING~1\AppData\Local\Temp\
+2019-09-03 21:18:13 -Client environment:java.compiler=<NA>
+2019-09-03 21:18:13 -Client environment:os.name=Windows 10
+2019-09-03 21:18:13 -Client environment:os.arch=amd64
+2019-09-03 21:18:13 -Client environment:os.version=10.0
+2019-09-03 21:18:13 -Client environment:user.name=wuqinglin
+2019-09-03 21:18:13 -Client environment:user.home=C:\Users\wuqinglin
+2019-09-03 21:18:13 -Client environment:user.dir=C:\dev\refer\crazyim\crazy_tourist_circle__im
+2019-09-03 21:18:13 -Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6ad179b4
+2019-09-03 21:18:13 -Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-03 21:18:13 -Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-09-03 21:18:13 -Default schema
+2019-09-03 21:18:13 -Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1000e705a96000d, negotiated timeout = 60000
+2019-09-03 21:18:13 -State change: CONNECTED
+2019-09-03 21:18:14 -Mapped "{[/user/login/{username}/{password}],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.crazymakercircle.controller.UserAction.loginAction(java.lang.String,java.lang.String)
+2019-09-03 21:18:14 -Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-09-03 21:18:14 -Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-09-03 21:18:14 -Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-09-03 21:18:14 -Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-09-03 21:18:14 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-09-03 21:18:14 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-09-03 21:18:14 -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17d919b6: startup date [Tue Sep 03 21:18:08 CST 2019]; root of context hierarchy
+2019-09-03 21:18:15 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 21:18:15 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 21:18:15 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-03 21:18:16 -Registering beans for JMX exposure on startup
+2019-09-03 21:18:16 -Context refreshed
+2019-09-03 21:18:16 -Found 1 custom documentation plugin(s)
+2019-09-03 21:18:16 -Scanning for api listing references
+2019-09-03 21:18:16 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-03 21:18:16 -Starting ProtocolHandler ["http-nio-8080"]
+2019-09-03 21:18:16 -Using a shared selector for servlet write/read
+2019-09-03 21:18:16 -Tomcat started on port(s): 8080 (http)
+2019-09-03 21:18:16 -Started WebSpringApplication in 8.69 seconds (JVM running for 9.939)
+2019-09-03 21:18:38 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-03 21:18:38 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-09-03 21:18:38 -FrameworkServlet 'dispatcherServlet': initialization completed in 35 ms
+2019-09-03 21:18:42 -child:
+2019-09-03 21:18:42 -child:
+2019-09-03 21:18:42 -全部节点如下：
+2019-09-03 21:18:42 -节点信息：{"id":0,"balance":0,"host":"192.168.0.5","port":7000}
+2019-09-03 21:18:42 -节点信息：{"id":0,"balance":0,"host":"192.168.0.5","port":7001}
+2019-09-03 21:18:42 -最佳的节点为：{"id":0,"balance":0,"host":"192.168.0.5","port":7000}
+2019-09-03 21:21:09 -child:
+2019-09-03 21:21:09 -child:
+2019-09-03 21:21:09 -全部节点如下：
+2019-09-03 21:21:09 -节点信息：{"id":0,"balance":0,"host":"192.168.0.5","port":7000}
+2019-09-03 21:21:09 -节点信息：{"id":0,"balance":0,"host":"192.168.0.5","port":7001}
+2019-09-03 21:21:09 -最佳的节点为：{"id":0,"balance":0,"host":"192.168.0.5","port":7000}
+2019-09-03 21:31:37 -child:
+2019-09-03 21:31:37 -child:
+2019-09-03 21:31:37 -child:
+2019-09-03 21:31:37 -全部节点如下：
+2019-09-03 21:31:37 -节点信息：{"id":0,"balance":0,"host":"192.168.0.5","port":7000}
+2019-09-03 21:31:37 -节点信息：{"id":0,"balance":0,"host":"192.168.0.5","port":7002}
+2019-09-03 21:31:37 -节点信息：{"id":0,"balance":0,"host":"192.168.0.5","port":7001}
+2019-09-03 21:31:37 -最佳的节点为：{"id":0,"balance":0,"host":"192.168.0.5","port":7000}
+2019-09-03 22:51:25 -child:
+2019-09-03 22:51:25 -child:
+2019-09-03 22:51:25 -child:
+2019-09-03 22:51:25 -全部节点如下：
+2019-09-03 22:51:25 -节点信息：{"id":0,"balance":0,"host":"192.168.0.5","port":7000}
+2019-09-03 22:51:25 -节点信息：{"id":0,"balance":0,"host":"192.168.0.5","port":7002}
+2019-09-03 22:51:25 -节点信息：{"id":0,"balance":0,"host":"192.168.0.5","port":7001}
+2019-09-03 22:51:25 -最佳的节点为：{"id":0,"balance":0,"host":"192.168.0.5","port":7000}
+2019-09-03 22:57:49 -child:
+2019-09-03 22:57:49 -全部节点如下：
+2019-09-03 22:57:49 -节点信息：{"id":0,"balance":0,"host":"192.168.0.5","port":7000}
+2019-09-03 22:57:49 -最佳的节点为：{"id":0,"balance":0,"host":"192.168.0.5","port":7000}
+2019-09-03 23:00:49 -child:
+2019-09-03 23:00:49 -全部节点如下：
+2019-09-03 23:00:49 -节点信息：{"id":0,"balance":0,"host":"192.168.0.5","port":7000}
+2019-09-03 23:00:49 -最佳的节点为：{"id":0,"balance":0,"host":"192.168.0.5","port":7000}
+2019-09-03 23:22:52 -child:
+2019-09-03 23:22:52 -child:
+2019-09-03 23:22:52 -全部节点如下：
+2019-09-03 23:22:52 -节点信息：{"id":0,"balance":0,"host":"192.168.0.5","port":7000}
+2019-09-03 23:22:52 -节点信息：{"id":0,"balance":0,"host":"192.168.0.5","port":7001}
+2019-09-03 23:22:52 -最佳的节点为：{"id":0,"balance":0,"host":"192.168.0.5","port":7000}
