@@ -10,6 +10,8 @@ import org.apache.curator.framework.CuratorFramework;
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.data.Stat;
 
+import java.util.List;
+
 /**
  * IM 节点的ZK协调客户端
  * create by 尼恩 @ 疯狂创客圈
@@ -27,7 +29,7 @@ public class ImWorker {
     private ImNode localNode = null;
 
     private static ImWorker singleInstance = null;
-    private boolean inited=false;
+    private boolean inited = false;
 
     //取得单例
     public synchronized static ImWorker getInst() {
@@ -47,17 +49,18 @@ public class ImWorker {
     // 在zookeeper中创建临时节点
     public synchronized void init() {
 
-        if(inited)
-        {
+        if (inited) {
             return;
         }
-        inited=true;
+        inited = true;
         if (null == client) {
             this.client = CuratorZKclient.instance.getClient();
         }
         if (null == localNode) {
             localNode = new ImNode();
         }
+
+        deleteWhenHasNoChildren(ServerConstants.MANAGE_PATH);
 
         createParentIfNeeded(ServerConstants.MANAGE_PATH);
 
@@ -74,7 +77,7 @@ public class ImWorker {
 
             //为node 设置id
             localNode.setId(getId());
-            log.info("本地节点, path={}, id={}",      pathRegistered, localNode.getId());
+            log.info("本地节点, path={}, id={}", pathRegistered, localNode.getId());
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -200,6 +203,102 @@ public class ImWorker {
      */
     public ImNode getLocalNodeInfo() {
         return localNode;
+    }
+
+
+    //删除该路径
+    public boolean delPath(String path) {
+        boolean b = false;
+
+        //检测是否存在该路径。
+        try {
+            Void stat = client.delete().forPath(path);
+            b = stat == null ? false : true;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return b;
+    }
+
+    //获取子节点
+    public List<String> getChildren(String path) {
+
+        //检测是否存在该路径。
+        try {
+            List<String> children = client.getChildren().forPath(path);
+            return children;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
+    public void deleteWhenHasNoChildren(String path) {
+
+        int index = path.lastIndexOf("/");
+
+        String parent = path.substring(0, index);
+
+        boolean exist = isNodeExist(parent);
+        if (exist) {
+            List<String> children = getChildren(parent);
+            if (null != children && children.size() == 0) {
+                delPath(parent);
+                log.info("删除空的 父节点:" + parent);
+
+            }
+        }
+    }
+
+    /**
+     * 检查节点
+     */
+    public boolean isNodeExist(String zkPath) {
+        try {
+
+            Stat stat = client.checkExists().forPath(zkPath);
+            if (null == stat) {
+                log.info("节点不存在:", zkPath);
+                return false;
+            } else {
+
+                log.info("节点存在 stat is:", stat.toString());
+                return true;
+
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+
+    static {
+        //JVM关闭时的钩子函数
+        Runtime.getRuntime().addShutdownHook(
+                new Thread(() -> {
+                    ImWorker.getInst().deleteNode();
+                }, "关掉worker，删除zk节点"));
+    }
+
+    private void deleteNode() {
+        log.info("删除 worker node, path={}, id={}", pathRegistered, localNode.getId());
+        try {
+
+            Stat stat = client.checkExists().forPath(pathRegistered);
+            if (null == stat) {
+                log.info("节点不存在:{}", pathRegistered);
+            } else {
+
+                client.delete().forPath(pathRegistered);
+
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 }
