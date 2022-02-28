@@ -21,8 +21,6 @@ public class LoginRequestHandler extends ChannelInboundHandlerAdapter
 
     @Autowired
     LoginProcesser loginProcesser;
-    @Autowired
-    private ChatRedirectHandler chatRedirectHandler;
 
     /**
      * 收到消息
@@ -68,7 +66,7 @@ public class LoginRequestHandler extends ChannelInboundHandlerAdapter
 //                    ctx.pipeline().remove(LoginRequestHandler.this);
                     log.info("登录成功:" + session.getUser());
 
-                    ctx.pipeline().addAfter("login", "chat",   chatRedirectHandler);
+//                    ctx.pipeline().addAfter("login", "chat",   chatRedirectHandler);
                     ctx.pipeline().addAfter("login", "heartBeat",new HeartBeatServerHandler());
                     ctx.pipeline().remove("login");
                 } else

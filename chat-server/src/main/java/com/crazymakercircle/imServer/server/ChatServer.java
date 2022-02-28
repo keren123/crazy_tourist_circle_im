@@ -81,7 +81,7 @@ public class ChatServer {
                 // 在流水线中添加handler来处理登录,登录后删除
                 ch.pipeline().addLast("login", loginRequestHandler);
                 ch.pipeline().addLast("remoteNotificationHandler", remoteNotificationHandler);
-//                ch.pipeline().addLast("chatRedirect", chatRedirectHandler);
+                ch.pipeline().addLast("chatRedirect", chatRedirectHandler);
                 ch.pipeline().addLast("serverException", serverExceptionHandler);
             }
         });

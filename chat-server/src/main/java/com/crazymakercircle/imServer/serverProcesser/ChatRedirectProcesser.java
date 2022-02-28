@@ -43,7 +43,7 @@ public class ChatRedirectProcesser extends AbstractServerProcesser {
             toSessions.forEach((session) ->
             {
                 // 将IM消息发送到接收客户端；
-                // 如果是remotesession，则转发到对应的服务节点
+                // 如果是remoteSession，则转发到对应的服务节点
                 session.writeAndFlush(proto);
 
             });
